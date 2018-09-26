@@ -1,28 +1,24 @@
 <html>
 <head>
-
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+  <title>A Leaflet map!</title>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
    crossorigin=""/>
-
-<style>
-    #mapid{ height: 100% }
-</style>
-
-
-<!-- Make sure you put this AFTER Leaflet's CSS -->
-<script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+ <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
    crossorigin=""></script>
-
+  <script src="https://cdn.rawgit.com/jquery/jquery-ui/74f8a0ac/external/jquery-2.1.1/jquery.js"></script> 
+  <style>
+    #map{ height: 100% }
+  </style>
 </head>
 
 <body>
-<div id="mapid"></div>
+<div id="map"></div>
 
 <script>
      
-  var mymap = L.map('mapid').setView([38.6270, -90.1994], 13);
+  var mymap = L.map('map').setView([38.6270, -90.1994], 13);
     L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
         attribution: 'Map tiles by Stamen Design, under CC BY 3.0.',
         maxZoom: 18,
@@ -31,20 +27,20 @@
   
   // load GeoJSON from an external file
   
-  $.getJSON("https://raw.githubusercontent.com/LauraLB2006/advanced_class/master/Project1/Colleges%20in%20Greater%20STL.csv",function(data){
-    // add GeoJSON layer to the map once the file is loaded
-    L.geoJson(data).addTo(mymap);
-  });  
-  var CollegeIcon = L.icon({
-    iconUrl: 'https://i.pinimg.com/originals/01/29/38/012938b2c763c53e0e129d9306615432.jpg',
-    iconSize: [50,40]
+  $.getJSON("https://raw.githubusercontent.com/LauraLB2006/advanced_class/master/Project1/Colleges.geojson",function(data){
+	var CollegeIcon = L.icon({
+   	iconUrl: 'https://i.pinimg.com/originals/01/29/38/012938b2c763c53e0e129d9306615432.jpg',
+    	iconSize: [50,40]
   }); 
-  
-  L.geoJson(data  ,{
-    pointToLayer: function(feature,latlng){
-	  return L.marker(latlng,{icon: CollegeIcon});
+    // add GeoJSON layer to the map once the file is loaded
+	L.geoJson(data  ,{
+    		pointToLayer: function(feature,latlng){
+	  		return L.marker(latlng,{icon: CollegeIcon});
     } 
-  })
+  }).addTo(mymap);
+  });  
+   
+ 
   // everything worked until I put the GeoJSON code in!
             
   var circle = L.circle([38.6270, -90.1994], {
@@ -84,7 +80,5 @@
   mymap.on('click', onMapClick);
       
 </script>
-
-
 </body>
 </html>
