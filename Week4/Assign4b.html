@@ -39,7 +39,7 @@
         container: "viewDiv",
         map: map,
         center:[-90, 38],
-        zoom: 4
+        zoom: 8
       });
       /*************************************************************
        * The PopupTemplate content is the text that appears inside the
@@ -51,23 +51,23 @@
        * aliases in the popup and legend.
        **************************************************************/
       var template = { // autocasts as new PopupTemplate()
-        title: "Municipality: {MUNICIPALITY}",
+        title: "School Districts of St. Louis County",
         content: [{
           // It is also possible to set the fieldInfos outside of the content
           // directly in the popupTemplate. If no fieldInfos is specifically set
           // in the content, it defaults to whatever may be set within the popupTemplate.
           type: "fields",
           fieldInfos: [{
-            fieldName: "MUNICIPALITY",
-            label: "Municipality: ",
-            visible: true
+            fieldName: "EMS",
+            label: "EMS: ",
+            visible: true,
             format: {
               digitSeparator: true,
               places: 0
              }
           }, {
-            fieldName: "PRECINCT",
-            label: "Precinct: ",
+            fieldName: "POLICE",
+            label: "Police: ",
             visible: true,
             format: {
               digitSeparator: true,
