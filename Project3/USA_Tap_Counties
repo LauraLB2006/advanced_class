@@ -1,0 +1,338 @@
+<html>
+<head>
+  <title>Layer: County (ID:1)</title>
+  <link href='/ESRI.ArcGIS.SDS.REST.css' rel='stylesheet' type='text/css'>
+  <link rel='SHORTCUT ICON' href='/favicon.ico'>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+</head>
+<body>
+<table width="100%" class="userTable">
+<tr>
+<td class="titlecell">ArcGIS REST Services Directory</td>
+</tr>
+</table>
+<table class="navTable" width="100%">
+<tbody>
+<tr valign="top">
+<td class="breadcrumbs">
+<a href="/P3ePLMYs2RVChkJx/ArcGIS/rest/services">Home</a> > <a href="/P3ePLMYs2RVChkJx/ArcGIS/rest/services">services</a> > <a href="/P3ePLMYs2RVChkJx/ArcGIS/rest/services/Tapestry_Households/FeatureServer">Tapestry_Households (FeatureServer)</a> > <a href="/P3ePLMYs2RVChkJx/ArcGIS/rest/services/Tapestry_Households/FeatureServer/1">County</a> </td>
+<td align="right">
+<a href="http://resources.arcgis.com/en/help/arcgis-rest-api/" target="_blank">API Reference</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<tr>
+<td class="apiref">
+<a href="?f=pjson" target="_blank">JSON</a>
+</td>
+</tr>
+</table>
+<div class='restHeader'>
+<h2>Layer: County (ID:1)</h2>
+</div>
+<div class='restBody'>
+<b>View In: </b>
+&nbsp;&nbsp;<a href="http://www.arcgis.com/home/webmap/viewer.html?url=http://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/Tapestry_Households/FeatureServer/1&source=sd" target="_blank">ArcGIS.com Map</a>
+<br/><br/>
+<b>Name:</b> County<br/>
+<br/>
+<b>Display Field:</b> NAME<br/>
+<br/>
+<b>Type:</b> Feature Layer<br/>
+<br/>
+<b>Geometry Type:</b> esriGeometryPolygon<br/>
+<br/>
+<b>Description:</b> <br/>
+<br/>
+<b>Copyright Text:</b> <br/>
+<br/>
+<b>Min. Scale:</b> 10000001<br/>
+<br/>
+<b>Max. Scale:</b> 2000001<br/>
+<br/>
+<b>Default Visibility:</b> true<br/>
+<br/>
+<b>Max Record Count:</b> 1000<br/>
+<br/>
+<b>Supported query Formats:</b> JSON<br/>
+<br/>
+<b>Use Standardized Queries:</b> True<br/>
+<br/>
+<b>Extent:</b> <br/>
+<ul>
+XMin: -19942589.5525745<br/>
+YMin: 2144545.12768876<br/>
+XMax: -7452854.37992081<br/>
+YMax: 11536823.133091<br/>
+Spatial Reference: 102100<br/>
+</ul>
+<br/>
+<b>Drawing Info:</b> <br/>
+<ul>{"renderer":{"type":"uniqueValue","field1":"TLIFENAME","field2":null,"field3":null,"fieldDelimiter":", ","defaultSymbol":null,"defaultLabel":null,"uniqueValueInfos":[{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[236,137,16,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.40000000000000002}},"value":"Affluent Estates","label":"Affluent Estates","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[0,144,56,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.40000000000000002}},"value":"Cozy Country Living","label":"Cozy Country Living","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[160,135,191,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.40000000000000002}},"value":"Ethnic Enclaves","label":"Ethnic Enclaves","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[236,131,163,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.40000000000000002}},"value":"Family Landscapes","label":"Family Landscapes","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[234,228,0,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.40000000000000002}},"value":"GenXurban","label":"GenXurban","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[251,181,0,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.40000000000000002}},"value":"Hometown","label":"Hometown","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[0,152,225,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.40000000000000002}},"value":"Middle Ground","label":"Middle Ground","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[58,176,147,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.40000000000000002}},"value":"Midtown Singles","label":"Midtown Singles","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[117,93,167,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.40000000000000002}},"value":"Next Wave","label":"Next Wave","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[208,183,130,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.40000000000000002}},"value":"Rustic Outposts","label":"Rustic Outposts","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[158,169,91,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.40000000000000002}},"value":"Scholars and Patriots","label":"Scholars and Patriots","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[229,65,95,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.40000000000000002}},"value":"Senior Styles","label":"Senior Styles","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[116,185,41,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.40000000000000002}},"value":"Upscale Avenues","label":"Upscale Avenues","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[145,200,239,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.40000000000000002}},"value":"Uptown Individuals","label":"Uptown Individuals","description":""}]},"transparency":0,"labelingInfo":null}</ul><br/>
+<b>HasZ:</b> false<br/>
+<br/>
+<b>HasM:</b> false<br/>
+<br/>
+<b>Has Attachments:</b> false<br/>
+<br/>
+<b>Has Geometry Properties:</b> false<br/>
+<br/>
+<b>HTML Popup Type:</b> esriServerHTMLPopupTypeAsHTMLText<br/>
+<br/>
+<b>Object ID Field:</b> OBJECTID<br/>
+<br/>
+<b>Unique ID Field:</b> <br/>
+<ul>
+Name : OBJECTID<br/>
+</ul>
+<ul>
+IsSystemMaintained : True<br/>
+</ul>
+<br/>
+<b>Global ID Field:</b> <br/>
+<br/>
+<b>Type ID Field:</b> TLIFENAME<br/>
+<br/>
+<b>Fields:</b>
+<ul>
+  <li>OBJECTID <i>(type: esriFieldTypeOID, alias: OBJECTID, SQL Type: sqlTypeOther, length: 0, nullable: false, editable: false)</i></li>
+  <li>ID <i>(type: esriFieldTypeString, alias: ID, SQL Type: sqlTypeOther, length: 5, nullable: true, editable: true)</i></li>
+  <li>NAME <i>(type: esriFieldTypeString, alias: NAME, SQL Type: sqlTypeOther, length: 33, nullable: true, editable: true)</i></li>
+  <li>STATE_NAME <i>(type: esriFieldTypeString, alias: STATE_NAME, SQL Type: sqlTypeOther, length: 20, nullable: true, editable: true)</i></li>
+  <li>ST_ABBREV <i>(type: esriFieldTypeString, alias: ST_ABBREV, SQL Type: sqlTypeOther, length: 2, nullable: true, editable: true)</i></li>
+  <li>County_AREA <i>(type: esriFieldTypeDouble, alias: AREA, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>TSEGNUM <i>(type: esriFieldTypeInteger, alias: 2014 Dominant Tapestry Number (Esri), SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>TSEGCODE <i>(type: esriFieldTypeString, alias: 2014 Dominant Tapestry Segment (Esri), SQL Type: sqlTypeOther, length: 3, nullable: true, editable: true)</i></li>
+  <li>TSEGNAME <i>(type: esriFieldTypeString, alias: 2014 Dominant Tapestry Segment Name, SQL Type: sqlTypeOther, length: 30, nullable: true, editable: true)</i></li>
+  <li>THHBASE <i>(type: esriFieldTypeInteger, alias: 2014 Base for Tapestry Segmentation Households (Esri), SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH01 <i>(type: esriFieldTypeInteger, alias: Top Tier (1A) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH02 <i>(type: esriFieldTypeInteger, alias: Professional Pride (1B) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH03 <i>(type: esriFieldTypeInteger, alias: Boomburbs (1C) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH04 <i>(type: esriFieldTypeInteger, alias: Savvy Suburbanites (1D) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH05 <i>(type: esriFieldTypeInteger, alias: Exurbanites (1E) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH06 <i>(type: esriFieldTypeInteger, alias: Urban Chic (2A) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH07 <i>(type: esriFieldTypeInteger, alias: Pleasantville (2B) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH08 <i>(type: esriFieldTypeInteger, alias: Pacific Heights (2C) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH09 <i>(type: esriFieldTypeInteger, alias: Enterprising Professionals (2D) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH10 <i>(type: esriFieldTypeInteger, alias: Laptops and Lattes (3A) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH11 <i>(type: esriFieldTypeInteger, alias: Metro Renters (3B) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH12 <i>(type: esriFieldTypeInteger, alias: Trendsetters (3C) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH13 <i>(type: esriFieldTypeInteger, alias: Soccer Moms (4A) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH14 <i>(type: esriFieldTypeInteger, alias: Home Improvement (4B) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH15 <i>(type: esriFieldTypeInteger, alias: Middleburg (4C) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH16 <i>(type: esriFieldTypeInteger, alias: Comfortable Empty Nesters (5A) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH17 <i>(type: esriFieldTypeInteger, alias: In Style (5B) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH18 <i>(type: esriFieldTypeInteger, alias: Parks and Rec (5C) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH19 <i>(type: esriFieldTypeInteger, alias: Rustbelt Traditions (5D) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH20 <i>(type: esriFieldTypeInteger, alias: Midlife Constants (5E) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH21 <i>(type: esriFieldTypeInteger, alias: Green Acres (6A) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH22 <i>(type: esriFieldTypeInteger, alias: Salt of the Earth (6B) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH23 <i>(type: esriFieldTypeInteger, alias: The Great Outdoors (6C) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH24 <i>(type: esriFieldTypeInteger, alias: Prairie Living (6D) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH25 <i>(type: esriFieldTypeInteger, alias: Rural Resort Dwellers (6E) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH26 <i>(type: esriFieldTypeInteger, alias: Heartland Communities (6F) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH27 <i>(type: esriFieldTypeInteger, alias: Up and Coming Families (7A) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH28 <i>(type: esriFieldTypeInteger, alias: Urban Villages (7B) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH29 <i>(type: esriFieldTypeInteger, alias: American Dreamers (7C) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH30 <i>(type: esriFieldTypeInteger, alias: Barrios Urbanos (7D) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH31 <i>(type: esriFieldTypeInteger, alias: Valley Growers (7E) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH32 <i>(type: esriFieldTypeInteger, alias: Southwestern Families (7F) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH33 <i>(type: esriFieldTypeInteger, alias: City Lights (8A) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH34 <i>(type: esriFieldTypeInteger, alias: Emerald City (8B) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH35 <i>(type: esriFieldTypeInteger, alias: Bright Young Professionals (8C) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH36 <i>(type: esriFieldTypeInteger, alias: Downtown Melting Pot (8D) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH37 <i>(type: esriFieldTypeInteger, alias: Front Porches (8E) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH38 <i>(type: esriFieldTypeInteger, alias: Old and Newcomers (8F) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH39 <i>(type: esriFieldTypeInteger, alias: Hardscrabble Road (8G) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH40 <i>(type: esriFieldTypeInteger, alias: Silver & Gold (9A) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH41 <i>(type: esriFieldTypeInteger, alias: Golden Years (9B) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH42 <i>(type: esriFieldTypeInteger, alias: The Elders (9C) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH43 <i>(type: esriFieldTypeInteger, alias: Senior Escapes (9D) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH44 <i>(type: esriFieldTypeInteger, alias: Retirement Communities (9E) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH45 <i>(type: esriFieldTypeInteger, alias: Social Security Set (9F) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH46 <i>(type: esriFieldTypeInteger, alias: Southern Satellites (10A) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH47 <i>(type: esriFieldTypeInteger, alias: Rooted Rural (10B) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH48 <i>(type: esriFieldTypeInteger, alias: Diners & Miners (10C) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH49 <i>(type: esriFieldTypeInteger, alias: Down the Road (10D) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH50 <i>(type: esriFieldTypeInteger, alias: Rural Bypasses (10E) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH51 <i>(type: esriFieldTypeInteger, alias: City Strivers (11A) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH52 <i>(type: esriFieldTypeInteger, alias: Young and Restless (11B) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH53 <i>(type: esriFieldTypeInteger, alias: Metro Fusion (11C) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH54 <i>(type: esriFieldTypeInteger, alias: Set to Impress (11D) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH55 <i>(type: esriFieldTypeInteger, alias: City Commons (11E) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH56 <i>(type: esriFieldTypeInteger, alias: Family Foundations (12A) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH57 <i>(type: esriFieldTypeInteger, alias: Traditional Living (12B)  Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH58 <i>(type: esriFieldTypeInteger, alias: Small Town Simplicity (12C) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH59 <i>(type: esriFieldTypeInteger, alias: Modest Income Homes (12D) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH60 <i>(type: esriFieldTypeInteger, alias: International Marketplace (13A) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH61 <i>(type: esriFieldTypeInteger, alias: Las Casas (13B) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH62 <i>(type: esriFieldTypeInteger, alias: NeWest Residents (13C) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH63 <i>(type: esriFieldTypeInteger, alias: Fresh Ambitions (13D) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH64 <i>(type: esriFieldTypeInteger, alias: High Rise Renters (13E) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH65 <i>(type: esriFieldTypeInteger, alias: Military Proximity (14A) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH66 <i>(type: esriFieldTypeInteger, alias: College Towns (14B) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH67 <i>(type: esriFieldTypeInteger, alias: Dorms to Diplomas (14C) Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THH68 <i>(type: esriFieldTypeInteger, alias: Unclassified (15), SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>TLIFECODE <i>(type: esriFieldTypeString, alias: 2014 Dominant Tapestry LifeMode Group Code, SQL Type: sqlTypeOther, length: 3, nullable: true, editable: true)</i></li>
+  <li>TLIFENAME <i>(type: esriFieldTypeString, alias: 2014 Dominant Tapestry LifeMode Group Name, SQL Type: sqlTypeOther, length: 30, nullable: true, editable: true)</i></li>
+  <li>Flier_URL <i>(type: esriFieldTypeString, alias: Flier_URL, SQL Type: sqlTypeOther, length: 350, nullable: true, editable: true)</i></li>
+  <li>THHGRPL1 <i>(type: esriFieldTypeInteger, alias: L1: Affluent Estates Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THHGRPL2 <i>(type: esriFieldTypeInteger, alias: L2: Upscale Avenues Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THHGRPL3 <i>(type: esriFieldTypeInteger, alias: L3: Uptown Individuals Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THHGRPL4 <i>(type: esriFieldTypeInteger, alias: L4: Family Landscapes Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THHGRPL5 <i>(type: esriFieldTypeInteger, alias: L5: GenXurban Tapestry Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THHGRPL6 <i>(type: esriFieldTypeInteger, alias: L6: Cozy Country Living Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THHGRPL7 <i>(type: esriFieldTypeInteger, alias: L7: Ethnic Enclaves Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THHGRPL8 <i>(type: esriFieldTypeInteger, alias: L8: Middle Ground Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THHGRPL9 <i>(type: esriFieldTypeInteger, alias: L9: Senior Styles Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THHGRPL10 <i>(type: esriFieldTypeInteger, alias: L10: Rustic Outposts Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THHGRPL11 <i>(type: esriFieldTypeInteger, alias: L11: Midtown Singles Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THHGRPL12 <i>(type: esriFieldTypeInteger, alias: L12: Hometown Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THHGRPL13 <i>(type: esriFieldTypeInteger, alias: L13: Next Wave Tapestry Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+  <li>THHGRPL14 <i>(type: esriFieldTypeInteger, alias: L14: Scholars and Patriots Households, SQL Type: sqlTypeOther, nullable: true, editable: true)</i></li>
+</ul>
+<br/>
+<b>Types:</b> <br/>
+<ul>ID: Senior Styles<br/>
+Name: Senior Styles<br/>
+Domains: <br/>
+<ul></ul>Templates: <br/>
+<ul>Name: Senior Styles<br/>
+Description: <br/>
+Drawing Tool: esriFeatureEditToolPolygon<br/>
+Prototype: <br/>
+<ul>Attributes: <br/>
+<ul><li><i>TLIFENAME</i>: Senior Styles</li></ul></ul></ul><hr>ID: Affluent Estates<br/>
+Name: Affluent Estates<br/>
+Domains: <br/>
+<ul></ul>Templates: <br/>
+<ul>Name: Affluent Estates<br/>
+Description: <br/>
+Drawing Tool: esriFeatureEditToolPolygon<br/>
+Prototype: <br/>
+<ul>Attributes: <br/>
+<ul><li><i>TLIFENAME</i>: Affluent Estates</li></ul></ul></ul><hr>ID: Next Wave<br/>
+Name: Next Wave<br/>
+Domains: <br/>
+<ul></ul>Templates: <br/>
+<ul>Name: Next Wave<br/>
+Description: <br/>
+Drawing Tool: esriFeatureEditToolPolygon<br/>
+Prototype: <br/>
+<ul>Attributes: <br/>
+<ul><li><i>TLIFENAME</i>: Next Wave</li></ul></ul></ul><hr>ID: Scholars and Patriots<br/>
+Name: Scholars and Patriots<br/>
+Domains: <br/>
+<ul></ul>Templates: <br/>
+<ul>Name: Scholars and Patriots<br/>
+Description: <br/>
+Drawing Tool: esriFeatureEditToolPolygon<br/>
+Prototype: <br/>
+<ul>Attributes: <br/>
+<ul><li><i>TLIFENAME</i>: Scholars and Patriots</li></ul></ul></ul><hr>ID: GenXurban<br/>
+Name: GenXurban<br/>
+Domains: <br/>
+<ul></ul>Templates: <br/>
+<ul>Name: GenXurban<br/>
+Description: <br/>
+Drawing Tool: esriFeatureEditToolPolygon<br/>
+Prototype: <br/>
+<ul>Attributes: <br/>
+<ul><li><i>TLIFENAME</i>: GenXurban</li></ul></ul></ul><hr>ID: Midtown Singles<br/>
+Name: Midtown Singles<br/>
+Domains: <br/>
+<ul></ul>Templates: <br/>
+<ul>Name: Midtown Singles<br/>
+Description: <br/>
+Drawing Tool: esriFeatureEditToolPolygon<br/>
+Prototype: <br/>
+<ul>Attributes: <br/>
+<ul><li><i>TLIFENAME</i>: Midtown Singles</li></ul></ul></ul><hr>ID: Hometown<br/>
+Name: Hometown<br/>
+Domains: <br/>
+<ul></ul>Templates: <br/>
+<ul>Name: Hometown<br/>
+Description: <br/>
+Drawing Tool: esriFeatureEditToolPolygon<br/>
+Prototype: <br/>
+<ul>Attributes: <br/>
+<ul><li><i>TLIFENAME</i>: Hometown</li></ul></ul></ul><hr>ID: Uptown Individuals<br/>
+Name: Uptown Individuals<br/>
+Domains: <br/>
+<ul></ul>Templates: <br/>
+<ul>Name: Uptown Individuals<br/>
+Description: <br/>
+Drawing Tool: esriFeatureEditToolPolygon<br/>
+Prototype: <br/>
+<ul>Attributes: <br/>
+<ul><li><i>TLIFENAME</i>: Uptown Individuals</li></ul></ul></ul><hr>ID: Cozy Country Living<br/>
+Name: Cozy Country Living<br/>
+Domains: <br/>
+<ul></ul>Templates: <br/>
+<ul>Name: Cozy Country Living<br/>
+Description: <br/>
+Drawing Tool: esriFeatureEditToolPolygon<br/>
+Prototype: <br/>
+<ul>Attributes: <br/>
+<ul><li><i>TLIFENAME</i>: Cozy Country Living</li></ul></ul></ul><hr>ID: Rustic Outposts<br/>
+Name: Rustic Outposts<br/>
+Domains: <br/>
+<ul></ul>Templates: <br/>
+<ul>Name: Rustic Outposts<br/>
+Description: <br/>
+Drawing Tool: esriFeatureEditToolPolygon<br/>
+Prototype: <br/>
+<ul>Attributes: <br/>
+<ul><li><i>TLIFENAME</i>: Rustic Outposts</li></ul></ul></ul><hr>ID: Upscale Avenues<br/>
+Name: Upscale Avenues<br/>
+Domains: <br/>
+<ul></ul>Templates: <br/>
+<ul>Name: Upscale Avenues<br/>
+Description: <br/>
+Drawing Tool: esriFeatureEditToolPolygon<br/>
+Prototype: <br/>
+<ul>Attributes: <br/>
+<ul><li><i>TLIFENAME</i>: Upscale Avenues</li></ul></ul></ul><hr>ID: Ethnic Enclaves<br/>
+Name: Ethnic Enclaves<br/>
+Domains: <br/>
+<ul></ul>Templates: <br/>
+<ul>Name: Ethnic Enclaves<br/>
+Description: <br/>
+Drawing Tool: esriFeatureEditToolPolygon<br/>
+Prototype: <br/>
+<ul>Attributes: <br/>
+<ul><li><i>TLIFENAME</i>: Ethnic Enclaves</li></ul></ul></ul><hr>ID: Middle Ground<br/>
+Name: Middle Ground<br/>
+Domains: <br/>
+<ul></ul>Templates: <br/>
+<ul>Name: Middle Ground<br/>
+Description: <br/>
+Drawing Tool: esriFeatureEditToolPolygon<br/>
+Prototype: <br/>
+<ul>Attributes: <br/>
+<ul><li><i>TLIFENAME</i>: Middle Ground</li></ul></ul></ul><hr>ID: Family Landscapes<br/>
+Name: Family Landscapes<br/>
+Domains: <br/>
+<ul></ul>Templates: <br/>
+<ul>Name: Family Landscapes<br/>
+Description: <br/>
+Drawing Tool: esriFeatureEditToolPolygon<br/>
+Prototype: <br/>
+<ul>Attributes: <br/>
+<ul><li><i>TLIFENAME</i>: Family Landscapes</li></ul></ul></ul><hr></ul><br/>
+<b>Is Data Versioned:</b> false<br/>
+<br/>
+<b>Supports Rollback On Failure Parameter:</b> true<br/>
+<br/>
+<b>Last Edit Date:</b> 11/7/2018 5:27:54 PM<br/>
+<br/>
+<b>Supported Operations: </b>
+&nbsp;&nbsp;<a href="/P3ePLMYs2RVChkJx/arcgis/rest/services/Tapestry_Households/FeatureServer/1/query">Query</a>
+&nbsp;&nbsp;<a href="/P3ePLMYs2RVChkJx/arcgis/rest/services/Tapestry_Households/FeatureServer/1/queryTopFeatures">Query Top Features</a>
+&nbsp;&nbsp;<a href="/P3ePLMYs2RVChkJx/arcgis/rest/services/Tapestry_Households/FeatureServer/1/generateRenderer">Generate Renderer</a>
+&nbsp;&nbsp;<a href="/P3ePLMYs2RVChkJx/arcgis/rest/services/Tapestry_Households/FeatureServer/1/validateSQL">Validate SQL</a>
+<br/><br/>
+</div>
+</body>
+</html>

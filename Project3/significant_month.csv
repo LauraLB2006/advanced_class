@@ -1,0 +1,16 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2018-11-01T22:19:51.540Z,-19.5882,-69.2923,102,6.2,mww,,19,0.122,1.16,us,us2000i5mj,2018-11-06T14:49:16.125Z,"113km NE of Iquique, Chile",earthquake,5.8,1.8,0.048,41,reviewed,us,us
+2018-10-30T02:13:39.550Z,-39.0541,174.9766,227.28,6.1,mww,,33,0.548,0.87,us,us1000hiup,2018-11-02T23:42:20.768Z,"64km ESE of Waitara, New Zealand",earthquake,5.9,4.5,0.062,25,reviewed,us,us
+2018-10-29T06:54:21.440Z,-57.4045,-66.4086,10,6.3,mww,,23,2.57,0.82,us,us1000hied,2018-11-01T15:45:13.988Z,Drake Passage,earthquake,7.5,1.8,0.071,19,reviewed,us,us
+2018-10-28T00:38:11.760Z,45.6521,26.4033,151,5.5,mww,,10,0.238,1.08,us,us1000hi43,2018-10-30T22:18:31.065Z,"16km SE of Comandau, Romania",earthquake,5.2,1.8,0.046,45,reviewed,us,us
+2018-10-25T22:54:52.590Z,37.5148,20.5635,14,6.8,mww,,15,2.275,0.84,us,us1000hhb1,2018-11-04T03:26:45.913Z,"32km SW of Mouzaki, Greece",earthquake,5.7,1.7,0.043,51,reviewed,us,us
+2018-10-22T06:22:48.810Z,49.3142,-129.6725,10,6.5,mww,,70,1.658,1.4,us,us1000hfh3,2018-10-23T19:31:53.395Z,"223km SW of Port Hardy, Canada",earthquake,6.7,1.9,0.069,20,reviewed,us,us
+2018-10-22T06:16:28.160Z,49.3468,-129.2135,10,6.8,mww,,62,1.47,1.4,us,us1000hfgv,2018-11-02T11:40:57.575Z,"197km SW of Port Hardy, Canada",earthquake,6.5,1.8,0.044,49,reviewed,us,us
+2018-10-22T05:39:40.330Z,49.2496,-129.4783,10.96,6.6,mww,,70,1.641,1.36,us,us1000hfgn,2018-11-02T15:47:31.227Z,"218km SW of Port Hardy, Canada",earthquake,6.5,3.4,0.05,39,reviewed,us,us
+2018-10-20T13:04:30.150Z,35.3608,-101.7933,5.34,4,mwr,,55,0.484,1.32,us,us1000heyv,2018-11-01T22:25:19.738Z,"15km NNE of Amarillo, Texas",earthquake,4.5,6.1,0.039,64,reviewed,us,us
+2018-10-16T01:03:43.090Z,-21.726,169.4867,10,6.4,mww,,70,2.087,1.19,us,us1000hclz,2018-10-16T03:09:32.261Z,"167km E of Tadine, New Caledonia",earthquake,3,1.8,0.056,31,reviewed,us,us
+2018-10-16T00:28:12.710Z,-21.9362,169.4899,10,6.3,mww,,19,2.009,1.33,us,us1000hcln,2018-10-30T05:40:49.122Z,"171km ESE of Tadine, New Caledonia",earthquake,7.2,1.7,0.054,33,reviewed,us,us
+2018-10-13T11:10:22.400Z,52.8549,153.2429,461,6.7,mww,,17,2.705,0.74,us,us1000hbkz,2018-10-19T11:44:36.284Z,"269km NW of Ozernovskiy, Russia",earthquake,6.5,1.9,0.033,89,reviewed,us,us
+2018-10-10T23:16:02.130Z,49.2902,156.2968,20,6.5,mww,,14,3.923,0.64,us,us1000hacw,2018-10-25T02:00:36.442Z,"154km S of Severo-Kuril'sk, Russia",earthquake,7.4,1.8,0.053,34,reviewed,us,us
+2018-10-10T20:48:20.750Z,-5.7078,151.2197,45.05,7,mww,,18,1.776,1.16,us,us1000haa3,2018-11-05T16:07:59.713Z,"120km E of Kimbe, Papua New Guinea",earthquake,7.1,3.8,0.056,31,reviewed,us,us
+2018-10-10T18:44:55.280Z,-7.453,114.4555,9,6,mww,,27,1.054,1.14,us,us1000ha6q,2018-10-22T17:57:16.043Z,"40km NNE of Cungapmimbo, Indonesia",earthquake,5.8,1.7,0.041,58,reviewed,us,us
